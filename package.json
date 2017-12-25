@@ -6,7 +6,8 @@
   "scripts": {
     "api": "node api.js",
     "build": "webpack",
-    "dev": "webpack-dev-server --port 3000"
+    "dev": "webpack-dev-server --port 3000",
+    "start": "nf start"
   },
   "author": "thekho ngaosathe",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "css-loader": "^0.28.7",
     "elm-webpack-loader": "^4.4.0",
     "file-loader": "^1.1.6",
+    "foreman": "^2.0.0",
     "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
